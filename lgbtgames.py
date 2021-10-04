@@ -48,5 +48,5 @@ protagTable.dropna(subset=["Protagonist rep."],inplace=True)
 
 
 
-#impliedYearTable.plot(x = "Year", y = "count", xlabel = "Year", ylabel = "Implied Count")
+impliedYearTable.plot(x = "Year", y = "count", xlabel = "Year", ylabel = "Implied Count")
 matplotlib.pyplot.show()
