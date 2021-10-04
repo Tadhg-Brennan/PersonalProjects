@@ -1,4 +1,5 @@
-array = ["1","2","3","4","5","6","7","8","9", "10", "11", "12", "13"]
+stringinput = input("Please enter all names with a ', ' between them: \n")
+array = stringinput.split(", ")
 class meeting:
     def __init__(self, person1, person2):
         self.person1 = person1
